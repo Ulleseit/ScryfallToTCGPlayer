@@ -5,7 +5,12 @@ To run:
 Open cmd.
 Navigate to downloaded files, then to the "dist" folder.
 Run scryfallToTCGMassEntry "Search Results Url"
-Search Resulsts url should look like:
+output.txt will then be output into the dist folder.
+
+Search Results url should look like:
 "https://scryfall.com/search?q=set%3Alcc+-is%3Areprint&unique=cards&as=grid&order=set"
 There is a 3 second delay between card pulls for internet courtesy, but if you wish to remove this you can set it to 1 or even 0 by adding a number after the command, for example:
 scryfallToTCGMassEntry "https://scryfall.com/search?q=set%3Alcc+-is%3Areprint&unique=cards&as=grid&order=set" 1
+
+Please Note:
+For some reason, TCGPlayer Mass Entry does not seem to want to accept a card when it's number is for the extended art version. Not sure if this is my fault, sorry!
